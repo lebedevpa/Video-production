@@ -12,7 +12,7 @@
 
     <header class="header">
         <div class="header__logo">
-            <a href="/" class="logo__link"><img class="logo__pic" src="" alt=""></a>
+            <a href="/" class="header__link"><img class="header__pic" src="" alt=""></a>
         </div>
         <nav class="nav-menu">
             <ul class=nav-menu__list>
@@ -76,7 +76,7 @@
         </section>
         <section class="news">
             <h2 class="news__header">Новости и Акции</h2>
-            <div class="news__blog">
+            <div class="news__content">
                 <article class="news__post">
                     <p class="news__date">Декабрь 2019</p>
                     <h3 class="news__offer">Снимем ваш клип на 50% дешевле</h3>
@@ -89,19 +89,20 @@
                     <p class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
                         благ!</p>
                 </article>
+                <div class="news__paginator">
+                    <p class="news__menu">Страница 1 из 7</p>
+                        <ul class="news__list">
+                            <li class="news__active-item"><a href="paginator" class="news__active-link">1</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">2</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">3</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">4</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">5</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">6</a></li>
+                            <li class="news__item"><a href="#" class="news__paginator-link">7</a></li>
+                        </ul>
+                </div>
             </div>
-            <div class="paginator">
-                <p class="paginator__menu">Страница 1 из 7</p>
-                <ol class="pagiantor__list">
-                    <li class="paginator__active-item"><a href="paginator" class="paginator__active-link">1</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
-                    <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
-                </ol>
-            </div>
+            
         </section>
         <section class="about-us">
             <div class="about-us__img">
@@ -109,7 +110,7 @@
             </div>
             <div class="about-us__textbox">
                 <h2 class="about-us__header">О нас</h2>
-                <p class="about_us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                <p class="about-us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
                     несколько абзацев более
                     менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
                     выступлений в домашних условиях. </p>
@@ -117,9 +118,9 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer__logo">
-            <img src="" alt="" class="logo__pic">
+            <img src="" alt="" class="footer__pic">
         </div>
         <div class="sitemap">
             <ul class="sitemap__menu">
@@ -134,18 +135,18 @@
         <div class="social-network">
             <ul class="social-network__menu">
                 <li class="social-network__item"><a href="http://" target="_blank" rel="noopener noreferrer"
-                        class="social-menu__link">fb</a></li>
+                        class="social-network__link">fb</a></li>
                 <li class="social-network__item"><a href="http://" target="_blank" rel="noopener noreferrer"
-                        class="social-menu__link">vk</a></li>
+                        class="social-network__link">vk</a></li>
                 <li class="social-network__item"><a href="http://" target="_blank" rel="noopener noreferrer"
-                        class="social-menu__link">inst</a></li>
+                        class="social-network__link">inst</a></li>
                 <li class="social-network__item"><a href="http://" target="_blank" rel="noopener noreferrer"
-                        class="social-menu__link">telegram</a></li>
+                        class="social-network__link">telegram</a></li>
             </ul>
         </div>
         <div class="tel-details">
             <p class="tel-details__text">Бесплатный звонок по России</p>
-            <h2 class="tel-dettails__tel-number">8 800 700 30 30</h2>
+            <h2 class="tel-details__tel-number">8 800 700 30 30</h2>
         </div>
     </footer>
 </body>
