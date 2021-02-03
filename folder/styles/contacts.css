@@ -5,12 +5,15 @@
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
+    margin-top: 0px;
 }
 
 .contacts__header{
+    margin-bottom:0;
     font-weight: normal;
     font-size: 13px;
     line-height: 20px;
+
     /* identical to box height, or 154% */
     
     text-decoration-line: underline;
@@ -20,8 +23,12 @@
 }
 
 .contacts__text{
-    font-size: 13px;
-    line-height: 21px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: right;
+    color: #9A9A9A;
+    margin-bottom: 0;
     /* identical to box height, or 162% */
 
 }

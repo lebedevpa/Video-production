@@ -6,8 +6,10 @@
     font-size: 72px;
     line-height: 98px;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 .fullscreen__subtitle{
     font-size: 18px;
     line-height: 20px;
+    margin-bottom: 100px;
 }

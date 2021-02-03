@@ -1,0 +1,36 @@
+.about-us{
+    display:flex;
+    justify-content: center;
+}
+.about-us__img{
+    margin-bottom: 100px;
+}
+.about-us__textbox{
+    position: relative;
+    right: 100px;
+    top: 100px;
+    border-radius:5px;
+    background-color: #fff;
+    width: 785px;
+    height: 455px;
+    margin-bottom:100px;
+}
+.about-us__header{
+    font-weight: 800;
+    padding: 50px;
+    padding-bottom:0;
+    color: #000;
+}
+.about-us__text{
+    width: 502px;
+    height: 135px;
+    margin-left:50px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color:#000;
+    margin-bottom: 50px;
+}
+.about-us__link{
+    margin-left: 50px;
+}

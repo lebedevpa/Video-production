@@ -1,0 +1,42 @@
+.news__paginator{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.news__menu{
+padding: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;  
+}
+
+.news__list{
+    list-style: none;
+    display: flex;
+    align-content: center;
+}
+
+.news__paginator-link{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-right:20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+.active-item{
+    background-color: #FF5500;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.active-link{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none;
+}

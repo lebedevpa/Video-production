@@ -1,0 +1,31 @@
+.news__content{
+    display:flex;
+    justify-content: space-around;
+}
+.news__post{
+    padding: 20px;
+    width: 557px;
+    height: 394px;
+    background-image: url('../img/content/camera.png');
+    background-repeat: no-repeat;
+}
+.news__date{
+    margin-top: 200px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.news__offer{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.news__text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+.news__post.wedding {
+    background-image: url('../img/content/wedding.png');
+    background-repeat: no-repeat;
+}
