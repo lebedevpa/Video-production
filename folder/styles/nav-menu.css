@@ -1,10 +1,7 @@
 .nav-menu{
-    display: inline-block;
     font-size: 14px;
     line-height: 19px;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .nav-menu__list {
