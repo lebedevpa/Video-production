@@ -15,8 +15,11 @@
     background-color: #fff;
 
 }
+.products__img{
+    margin: 40px;
+}
 .products__header{
-    margin-left: 30px;
+    margin: 20px 10px 0 20px;
     padding:0;
     font-weight: bold;
     font-size: 32px;
@@ -26,7 +29,9 @@
 }
 
 .products__text {
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
+    
+    margin: 10px 0 10px 0;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
@@ -40,4 +45,10 @@
 .products__text-right{
     display: inline-block;
     margin: auto;
+}
+.products__text-bottom{
+    margin-bottom: 40px;
+}
+.products__link.button, .products__link.button-white{
+    margin:20px;
 }
