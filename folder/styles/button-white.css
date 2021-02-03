@@ -1,0 +1,11 @@
+.button-white{
+    border: solid 1px;
+    border-radius: 35px;
+    background-color: #FFf;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 53px;
+    width: 195px;
+    height: 55px;
+    color: #FF5400;
+}
