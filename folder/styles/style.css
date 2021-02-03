@@ -9,6 +9,9 @@
 @import url('../styles/footer.css');
 @import url('../styles/fullscreen.css');
 @import url('../styles/products.css');
+@import url('../');
+
+
 
 body {
    font-family: 'Open Sans', sans-serif;
@@ -16,5 +19,6 @@ body {
    line-height: 2;
    background: #2B2B2B;
    color: #fff;
+   background-image: url('/video-production/folder/img/background/hero.png');
 }
 

@@ -1,6 +1,38 @@
-.products{
-    text-align: center;
-}
+
 .products__menu{
     display: flex;
+
+}
+.products__item{
+    margin: auto;
+    width: 362px;
+    height: 476px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+.products__header{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000;
+    text-align: left;
+}
+
+.products__text {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    color: #666;
+}
+
+.products__text-left{
+    display: inline-block;
+    margin-right: 50px;
+}
+.products__text-right{
+    display: inline-block;
+    margin: auto;
 }

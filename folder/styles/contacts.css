@@ -1,6 +1,6 @@
 .contacts{
-    text-align: center;
-    float: right;
+    display: inline-block;
+    margin-left: auto;
 }
 
 .contacts__tel-text{
