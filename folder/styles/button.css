@@ -1,9 +1,10 @@
 .button{
-    border-radius: 50%;
+    border-radius: 35px;
     background-color: #FF5400;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.7;
-    padding: 10px;
+    padding: 18px 53px;
+    width: 195px;
+    height: 55px;
     color: #fff;
 }

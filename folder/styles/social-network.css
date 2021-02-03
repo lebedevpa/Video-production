@@ -1,0 +1,7 @@
+.social-network__menu{
+    list-style: none;
+}
+.social-network__item{
+    display: inline;
+    margin-right: 10px;
+}

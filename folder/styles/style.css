@@ -5,7 +5,10 @@
 @import url('../styles/button.css');
 @import url('../styles/contacts.css');
 @import url('../styles/logo.css');
-
+@import url('../styles/social-network.css');
+@import url('../styles/footer.css');
+@import url('../styles/fullscreen.css');
+@import url('../styles/products.css');
 
 body {
    font-family: 'Open Sans', sans-serif;

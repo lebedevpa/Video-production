@@ -1,0 +1,12 @@
+.fullscreen{
+    text-align: center;
+}
+.fullscreen__title{
+    font-size: 72px;
+    line-height: 98px;
+    text-transform: uppercase;
+}
+.fullscreen__subtitle{
+    font-size: 18px;
+    line-height: 20px;
+}
