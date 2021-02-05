@@ -5,38 +5,40 @@
 }
 
 .news__menu{
-padding: 5px;
+
+    padding: 5px;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;  
+    line-height: 25px; 
+
 }
 
 .news__list{
-    list-style: none;
+    width: 30%;
     display: flex;
-    align-content: center;
+    justify-content: space-around;
+ 
 }
-
-.news__paginator-link{
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    margin-right:20px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 21px;
-
+.news__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
 }
-.active-item{
-    background-color: #FF5500;
-    height: 25px;
+.news__item.active-item{
+
+    background-color: #FF5400;
     width: 25px;
+    min-height: 25px;
     border-radius: 50%;
 }
-.active-link{
+.news__paginator-link{
+    text-decoration: none;
+    color: #fff;
     font-weight: bold;
     font-size: 16px;
-    line-height: 21px;
-    color: #fff;
-    text-decoration: none;
+    line-height: 25px;
+
 }
+
+

@@ -21,6 +21,6 @@ body {
    line-height: 2;
    background: #2B2B2B;
    color: #fff;
-   background-image: url('/video-production/folder/img/background/hero.png');
+   background-image: url('../img/background/hero.png');
 }
 
