@@ -30,12 +30,13 @@
 }
 .news__item.active-item{
     background-color: #FF5400;
+    font-weight: bold;
 
 }
 .news__paginator-link{
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     line-height: 21px;
  

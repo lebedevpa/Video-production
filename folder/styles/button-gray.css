@@ -1,7 +1,7 @@
-.button-white{
-    border: solid 1px;
+.button-gray{
+
     border-radius: 35px;
-    background-color: #FFf;
+    background-color: #8E8E8E;
     text-transform: uppercase;
     text-decoration: none;
     padding: 18px 53px;

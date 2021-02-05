@@ -1,0 +1,37 @@
+.reviews{
+    background-color: #fff;
+    color: #202020;
+}
+.reviews__content{
+
+}
+.content__item{
+    background-color: #F4F5F5;
+    width: 500px;
+    padding:31px;
+}
+
+.item__header{
+    display: flex;
+}
+
+.item__name{
+    color:#202020;
+}
+
+.item__tag{
+    display: inline-block;
+}
+.content__title{
+    color: #202020;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.content__text{
+    color:#818181;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+}

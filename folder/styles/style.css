@@ -10,10 +10,15 @@
 @import url('../styles/fullscreen.css');
 @import url('../styles/products.css');
 @import url('../styles/button-white.css');
+@import url('../styles/button-gray.css');
 @import url('../styles/news.css');
 @import url('../styles/section-title.css');
 @import url('../styles/paginator.css');
 @import url('../styles/about-us.css');
+@import url('../styles/tag.css');
+@import url('../styles/reviews.css');
+@import url('../styles/reviews-content.css');
+
 
 body {
    font-family: 'Open Sans', sans-serif;
