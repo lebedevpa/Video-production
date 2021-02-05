@@ -16,29 +16,29 @@
 .news__list{
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
  
 }
 .news__item{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 .news__item.active-item{
-
     background-color: #FF5400;
-    width: 25px;
-    min-height: 25px;
-    border-radius: 50%;
+
 }
 .news__paginator-link{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
-    line-height: 25px;
-
+    line-height: 21px;
+ 
 }
 
 
