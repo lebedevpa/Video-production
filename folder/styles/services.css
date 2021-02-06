@@ -1,0 +1,28 @@
+.services-white{
+    background-color: #fff;
+}
+.services__item{
+
+
+}
+.services__img{
+}
+
+.description{
+
+}
+.description__title{
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+.description__text {
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
