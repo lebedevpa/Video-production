@@ -1,0 +1,15 @@
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner__title{
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-transform: none;
+    padding: 117px 389px;
+    
+}

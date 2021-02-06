@@ -40,9 +40,12 @@
                     <div class="content__item">
                         <div class="item__header">
                             <img src="../folder/img/avatars/ivan.png" alt="" class="item-avatar">
-                            <h3 class="item__name">Иван Петрович</h3>
-                            <a href="" class="social-network__link"><img src="" alt="" class="social-network__img"></a>
-                            <a href="" class="item__tag tag-active">Съемки клипа</a>
+                            <div class="upper-level">
+                                <h3 class="item__name">Иван Петрович</h3>
+                                <a href="" class="social-network__link"><img src="" alt=""
+                                        class="social-network__img"></a>
+                            </div>
+                            <div class="item__tag-cloud"><a href="" class="item__tag tag-active">Съемки клипа</a></div>
                         </div>
                         <h3 class="content__title">Съемка клипа.</h3>
                         <p class="content__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
@@ -121,11 +124,45 @@
                                 </ul>
                             </div>
             </section>
+            <section class="banner">
+                <h2 class="banner__title section-title">Скидка 20% на съемку мероприятий</h2>
+                <img src="../folder/img/background/party.png" alt="" class="banner__img">
+            </section>
+            <section class="feedback">
+                <h2 class="form__title section-title">Оставьте отзыв</h2>
+                <form action="" method="get" class="feedback__form"> 
+                    
+                    <div class="feedback__inputs">
 
+                        <input type="text" id="name" value="Игорь Петрович|" class="input input__name">
+                        <input type="url" id="vk" value="Ссылка на профиль VK" class="input input__url">
+                        <textarea class="input__textarea" name="form__textarea" id="feedback" cols="30"
+                            rows="10">Напишите свой честный отзыв ;)</textarea>
+                        
+                    </div>
+                    
+                    <span class="form-question">
+                        <p class="qustion-text">Какими услугами компании пользуетесь?</p>
+                    </span>
+                    <span class="tag-cloud">
+                        <ul class="cloud__menu">
+                            <li class="cloud__item"><a href="#" class="item__tag">Съемки клипа</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag">Съемки рекламы</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag tag-active">Съемка свадьбы</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag">Студийная съемка</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag">Никакими</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag">Видео клип</a></li>
+                            <li class="cloud__item"><a href="#" class="item__tag">Другое</a></li>
+                        </ul>
+                    </span>
+                    <button class="form__button button-gray" type="reset">очистить</button>
+                    <button class="form__button button" type="submit">отправить</button>
+                </form>
+            </section>
         </main>
         <footer class="footer">
             <div class="logo">
-                <a href="index.html" class="logo-link"><img src="/video-production/folder/img/logos/logo.png" alt=""
+                <a href="index.html" class="logo-link"><img src="../folder/img/logos/logo.png" alt=""
                         class="logo__pic"></a>
             </div>
 

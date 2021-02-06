@@ -16,16 +16,16 @@
 @import url('../styles/paginator.css');
 @import url('../styles/about-us.css');
 @import url('../styles/tag.css');
-@import url('../styles/reviews.css');
 @import url('../styles/reviews-content.css');
+@import url('../styles/banner.css');
+@import url('../styles/form.css');
 
 
 body {
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    line-height: 2;
-   background: #2B2B2B;
    color: #fff;
-   background-image: url('../img/background/hero.png');
+   background: url('../img/background/hero.png')top no-repeat, url('../img/background/bottom-pic.png')bottom no-repeat;
+   background-color: #17191C;
 }
-

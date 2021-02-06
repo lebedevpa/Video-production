@@ -2,8 +2,11 @@
     background-color: #fff;
     color: #202020;
 }
-.reviews__content{
-
+.reviews__header{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
 }
 .content__item{
     background-color: #F4F5F5;
@@ -14,14 +17,18 @@
 .item__header{
     display: flex;
 }
-
+.upper-level{
+    display: block;
+    width:100%;
+}
 .item__name{
     color:#202020;
 }
-
-.item__tag{
-    display: inline-block;
+.item__tag-cloud{
+    display: block;
+    width:100%;
 }
+
 .content__title{
     color: #202020;
     font-weight: bold;
