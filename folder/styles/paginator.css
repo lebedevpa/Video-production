@@ -1,10 +1,10 @@
-.news__paginator{
+.paginator{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-.news__menu{
+.paginator__menu{
 
     padding: 5px;
     font-weight: normal;
@@ -13,14 +13,14 @@
 
 }
 
-.news__list{
+.paginator__list{
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
  
 }
-.news__item{
+.paginator__item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,12 +28,12 @@
     height: 25px;
     border-radius: 50%;
 }
-.news__item.active-item{
+.paginator__item.active-item{
     background-color: #FF5400;
     font-weight: bold;
 
 }
-.news__paginator-link{
+.paginator__link{
     text-decoration: none;
     color: #fff;
     font-weight: normal;
