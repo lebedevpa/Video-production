@@ -8,11 +8,6 @@
 .form__title{
     color:#202020;
 }
-.cloud__menu{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
 
 .feedback__inputs{
     display: inline-block;
