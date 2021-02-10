@@ -1,18 +1,10 @@
-.feedback{
-    background-color: #fff;
+.form__inputs {
+    display: flex;
+    flex-direction: column;
 }
-.feedback__form{
-    background-color: #F4F5F5;
-
+input{
+flex-direction: row;
 }
-.form__title{
-    color:#202020;
-}
-
-.feedback__inputs{
-    display: inline-block;
-}
-
 input, textarea{
     color:#666;
     font-family: 'OpenSans';
@@ -25,7 +17,6 @@ input, textarea{
     padding:19px 31px;
     color: #1A1B1E;
 }
-
 .form__button{
     border:none;
 }
