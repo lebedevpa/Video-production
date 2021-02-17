@@ -21,9 +21,14 @@
 @import url('../styles/banner.css');
 @import url('../styles/form.css');
 @import url('../styles/services.css');
+@import url('../styles/top-line.css');
+@import url('../styles/breadcrumbs.css');
+@import url('../styles/partners.css');
 
 
 body {
+   margin:0;
+   padding:0;
    font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    line-height: 2;

@@ -1,5 +1,40 @@
-.services-white{
+
+.main__services{
     background-color: #fff;
+}
+
+
+
+.services-white{
+    padding-top:100px;
+    background-color: #fff;
+}
+
+
+.services__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services__title{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #fff;
+    margin-bottom: 83px;
+}
+
+.services__img{
+    width: 40%;
+}
+.services--img{
+    width: 100%;
+}
+
+
+.description{
+    width: 50%;
 }
 .description__title{
     color: #000;
@@ -7,6 +42,8 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
+    margin: 0;
+    padding: 0;
 }
 .description__text {
     color: #000;

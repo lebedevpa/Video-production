@@ -2,5 +2,6 @@
     height: 129px;
     width: 1142px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    padding-top: 26px;
 }

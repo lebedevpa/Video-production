@@ -1,0 +1,11 @@
+.breadcrumbs{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9a9a9a;
+    text-decoration: underline;
+}
+.breadcrumbs-link{
+    color: #9a9a9a;
+}

@@ -1,4 +1,6 @@
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-top: solid 1px rgb(255, 255, 255, 0.1);
+    align-items: center;
 }

@@ -1,0 +1,7 @@
+.top-line{
+    background-image: url('../img/background/top-line.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 416px;
+}
