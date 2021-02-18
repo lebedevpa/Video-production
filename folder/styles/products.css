@@ -11,7 +11,7 @@
 .products__item{
     margin: auto;
     width: 362px;
-    height: 476px;
+    min-height: 476px;
     border-radius: 5px;
     background-color: #fff;
 

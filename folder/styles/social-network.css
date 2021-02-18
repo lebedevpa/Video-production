@@ -5,3 +5,6 @@
     display: inline;
     margin-right: 10px;
 }
+.social-network__menu{
+    display: flex;
+}

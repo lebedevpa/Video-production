@@ -1,11 +1,24 @@
-.form__inputs {
+.section-gray{
+    background-color: #E7E7E7;
+}
+
+.form__options{
+    width: 50%;
+    color:#1A1B1E;
+}
+
+.form__row{
     display: flex;
-    flex-direction: column;
+    margin-bottom: 26px;
 }
-input{
-flex-direction: row;
+.form__row_actions{
+    justify-content: flex-end;
 }
-input, textarea{
+.form__input{
+    height: 65px;
+    outline: none;
+    flex: 1;
+    margin-right: 28px;
     color:#666;
     font-family: 'OpenSans';
     font-style: normal;
@@ -13,21 +26,59 @@ input, textarea{
     font-size: 18px;
     line-height: 25px;
     border-radius: 5px;
-    border: none;
-    padding:19px 31px;
-    color: #1A1B1E;
-}
-.form__button{
-    border:none;
+    border: 1px solid #fff;
+    padding: 0px 30px;
+    
 }
 
-.item__tag{
-    padding: 9px 15px;
+.form__input:last-child{
+    margin-right: 0;
 }
-.item__tag:hover{
-    padding: 9px 15px;
+
+.form__row_comment{
+    height: 235px;
+    padding: 20px 30px;
+}
+.form__input:focus{
+    border: 1px solid #CCCCCC;
+}
+.tags-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tags-list__item{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #E7E7E7;
+    color: #303030;
+    border-radius: 35px;
+}
+
+.tags-list__check{
+    display: none;
+}
+
+
+.tags-list__check:checked + .tags-list__check-title{
     background-color: #F2D4C9;
     color: #303030;
     transition: 0.5s;
+}   
+
+
+.form__button{
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
+
 

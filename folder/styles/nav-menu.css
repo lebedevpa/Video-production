@@ -10,9 +10,14 @@
 .nav-menu__item{
     display: inline;
     margin-right: 10px;
+
 }
 .nav-menu__link{
     text-decoration: none;
     color: #fff;
     line-height: 19px;
+}
+.nav-menu__link:hover{
+    color:#FF3D00;
+    transition: 0.5s;
 }

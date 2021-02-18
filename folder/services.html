@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="../folder/styles/style.css">
 </head>
 
-<body class="body__services">
+<body class="services__body">
     <div class="top-line">
-        <div class="container">
+        <div class="container top-line__container">
             <header class="header">
                 <div class="logo">
                     <a href="index.html" class="logo__link"><img class="logo__pic" src="img/logos/logo.png" alt=""></a>
@@ -31,86 +31,94 @@
                     </div>
                 </div>
             </header>
-            <div class="services">
-                <h1 class="services__title section-title">Услуги</h1>
-                <div class="breadcrumbs">
-                    <div class="services__breadcrubms">
-                        <p class="breadcrumbs-text"><a href="index.html" class="breadcrumbs-link">Главная </a>/
-                            <b>Услуги</b>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <h1 class="page-title">Услуги</h1>
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link" >Главная</a></li>
+                    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link breadcrumbs__link--active ">Услуги</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
-    <main class="main__services">
-        <div class="container container-white">
-            <section class="services-white">
-                <div class="services__item">
-                    <span class="services__img">
-                        <img src="../folder/img/content/girls.png" alt="" class="services--img">
-                    </span>
-                    <span class="description">
-                        <h2 class="description__title">Съемки клипа</h2>
-                        <p class="description__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                            сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                            начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании
-                            генератора мы использовали небезизвестный универсальный код речей. </p>
-                        <a href="#" class="button-white">Подробнее</a>
-                    </span>
+    <main class="page-content">
+        <div class="container">
+            <ul class="services">
+                <li class="services__item service">
+                    <div class="service__img">
+                        <img src="../folder/img/content/girls.png" class="service__img-elem" alt="girls">
+                    </div>
+                    <div class="service__content">
+                        <h2 class="service__title">Съемки клипа</h2>
+                        <div class="service__description">
+                            <p>
+                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                использовали небезизвестный универсальный код речей.
+                            </p>
+                            <a href="" class="button button-white">подробнее</a>
 
 
-                </div>
-                <div class="services__item">
-                    <span class="services__img">
-                        <img src="../folder/img/content/engineer.png" alt="" class="services--img">
-                    </span>
-                    <span class="description">
-                        <h2 class="description__title">Съемки клипа</h2>
-                        <p class="description__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-                            сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а
-                            начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании
-                            генератора мы использовали небезизвестный универсальный код речей. </p>
-                        <div class="description__button"><a href="#" class="button-white">Подробнее</a></div>
-                    </span>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="services__item service">
+                    <div class="service__img">
+                        <img src="../folder/img/content/engineer.png" class="service__img-elem" alt="girls">
+                    </div>
+                    <div class="service__content">
+                        <h2 class="service__title">Съемки клипа</h2>
+                        <div class="service__description">
+                            <p>
+                                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                                отточить навык публичных выступлений в домашних условиях. При создании генератора мы
+                                использовали небезизвестный универсальный код речей.
+                            </p>
+                            <a href="" class="button">подробнее</a>
 
 
-                </div>
-                <div class="paginator">
-                    <p class="paginator__menu">Страница 1 из 7</p>
-                    <ul class="paginator__list">
-                        <li class="paginator__item active-item"><a href="paginator"
-                                class="paginator__paginator-link">1</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">2</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">3</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">4</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">5</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">6</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__paginator-link">7</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="partners">
-                <h2 class="partners__title section-title">Партнеры</h2>
-                <ul class="partners__list">
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/divico.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/ds.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/expotv.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/park.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/pixel.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/zavod.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/zvibes.png" alt="" class="partners__img"></a></li>
-                    <li class="partners__logo"><a href="#" class="partners__link"><img
-                                src="../folder/img/partners/rosvideo.png" alt="" class="partners__img"></a></li>
-                </ul>
-            </section>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="paginator">
+            <p class="paginator__menu">Страница 1 из 7</p>
+            <ul class="paginator__list">
+                <li class="paginator__item active-item"><a href="paginator" class="paginator__paginator-link">1</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">2</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">3</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">4</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">5</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">6</a></li>
+                <li class="paginator__item"><a href="#" class="paginator__paginator-link">7</a></li>
+            </ul>
+        </div>
+        </section>
+        <section class="partners">
+            <h2 class="partners__title section-title">Партнеры</h2>
+            <ul class="partners__list">
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/divico.png" alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img src="../folder/img/partners/ds.png"
+                            alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/expotv.png" alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img src="../folder/img/partners/park.png"
+                            alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/pixel.png" alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/zavod.png" alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/zvibes.png" alt="" class="partners__img"></a></li>
+                <li class="partners__logo"><a href="#" class="partners__link"><img
+                            src="../folder/img/partners/rosvideo.png" alt="" class="partners__img"></a></li>
+            </ul>
+        </section>
         </div>
     </main>
 

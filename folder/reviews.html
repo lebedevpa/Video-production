@@ -146,30 +146,72 @@
                 <h2 class="banner__title section-title offer">Скидка 20% на съемку мероприятий</h2>
 
             </section>
-            <section class="reviews-form form">
+            <section class="reviews-form section-gray">
                 <div class="form__container">
-                    <form action="" method="POST">
-                        <div class="form__inputs">
-                            <input type="text" class="form__fname" value="Игорь Петрович|">
-                            <input type="url" class="form__vk-link" value="Ссылка на профиль VK">
-                            <textarea name="" id="" cols="30" rows="10">
-                            Напишите свой честный отзыв ;)
-                        </textarea>
+                    <form method="POST">
+                        <div class="form__row">
+                            <input type="text" class="form__input" placeholder="Игорь Петрович|" name="name">
+                            <input type="text" class="form__input" placeholder="Ссылка на профиль VK" name="social">
                         </div>
-                        <p class="form__question-text">Какими услугами компании пользуетесь?</p>
-                        <div class="form__tag-cloud">
-                            <ul class="form__tag-menu">
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Съемки клипа</a></li>
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Съемки рекламы</a></li>
-                                <li class="form__tag-item tag-active"><a href="#" class="form__tag-link">Съемка свадьбы</a></li>
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Студийная съемка</a></li>
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Никакими</a></li>
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Видео клип</a></li>
-                                <li class="form__tag-item"><a href="#" class="form__tag-link">Другое</a></li>
-                            </ul>
+                        <div class="form__row">
+                            <textarea class="form__input form__row_comment" name="comment"  cols="30" rows="10" placeholder="Напишите свой честный отзыв ;)"></textarea>
                         </div>
-                        <button type="reset" class="form__button button-gray">ОЧИСТИТЬ</button>
-                        <button type="submit" class="form__button button">ОТПРАВИТЬ</button>
+                        <div class="form__row">
+                            <div class="form__options">Какими услугами компании пользуетесь?</div>
+                            <div class="form__options">
+                              <ul class="form__tags tags-list">
+                                  <li class="tags-list__item">
+                                      <label>
+                                        <input  class="tags-list__check" type="checkbox" name="" id="">
+                                        <span class="tags-list__check-title">Съемки клипа</span>
+                                      </label>
+                                  </li>
+                                  <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Съемки рекламы</span>
+                                    </label>
+                                </li>
+                                <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Съемка свадьбы</span>
+                                    </label>
+                                </li>
+                                <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Студийная съемка</span>
+                                    </label>
+                                </li>
+                                <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Никакими</span>
+                                    </label>
+                                </li>
+                                <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Видео клип</span>
+                                    </label>
+                                </li>
+                                <li class="tags-list__item">
+                                    <label>
+                                      <input  class="tags-list__check" type="checkbox" name="" id="">
+                                      <span class="tags-list__check-title">Другое</span>
+                                    </label>
+                                </li>
+                              </ul>  
+                            </div>
+                        </div>
+
+
+                        <div class="form__row form__row_actions">
+                            <button type="reset" class="form__button button-gray">ОЧИСТИТЬ</button>
+                            <button type="submit" class="form__button button">ОТПРАВИТЬ</button>
+                        </div>
+                        
                     </form>
             
                 </div>

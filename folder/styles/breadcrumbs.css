@@ -1,11 +1,32 @@
 .breadcrumbs{
+    display: flex;
+    align-items: center;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    color: #9a9a9a;
-    text-decoration: underline;
 }
-.breadcrumbs-link{
+.breadcrumbs__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.breadcrumbs__link{
     color: #9a9a9a;
+}
+
+.breadcrumbs__item{
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__item:after{
+    content: " / ";
+    color: #9a9a9a;
+}
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link--active{
+    text-decoration: none;
 }

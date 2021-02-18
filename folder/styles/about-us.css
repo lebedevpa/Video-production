@@ -1,6 +1,7 @@
 .about-us{
     display:flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .about-us__img{
     margin-bottom: 100px;

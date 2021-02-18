@@ -36,3 +36,10 @@ body {
    background: url('../img/background/hero.png')top no-repeat, url('../img/background/bottom-pic.png')bottom no-repeat;
    background-color: #17191C;
 }
+
+
+
+img{
+   max-width: 100%;
+   display: block;
+}
