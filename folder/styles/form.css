@@ -6,6 +6,15 @@
     width: 50%;
     color:#1A1B1E;
 }
+.form__title{
+    padding: 45px 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color:#202020;
+    text-transform: uppercase;
+}
 
 .form__row{
     display: flex;
@@ -79,6 +88,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    margin-bottom: 100px;
 }
 
 

@@ -3,7 +3,9 @@
     justify-content: center;
     margin-bottom: 100px;
 }
-
+.reviews-content .paginator{
+    margin-bottom: 0;
+}
 .paginator--theme--light{
     color: #000;
     margin-bottom: 0;

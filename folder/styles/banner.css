@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: url('../img/background/party.png') right no-repeat;
+    height: 363px;
+    text-align: left;
 }
 .banner__title{
     display: inline-block;
@@ -10,6 +13,5 @@
     font-size: 48px;
     line-height: 65px;
     text-transform: none;
-    padding: 117px 389px;
-    
+    margin-right: 400px;
 }
