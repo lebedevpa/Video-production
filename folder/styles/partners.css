@@ -24,6 +24,7 @@
     align-items: center;
     padding-bottom: 100px;
 }
+
 .partners__link{
     text-decoration: none;
     display: flex;
@@ -31,4 +32,9 @@
     height: 100px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.partners__link:hover{
+    filter: grayscale(0);
 }
