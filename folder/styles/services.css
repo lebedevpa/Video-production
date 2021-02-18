@@ -1,20 +1,66 @@
-.services__body{
-    background: none;
-}
+
 
 
 .page-content{
     background-color: #fff;
     color: #303030;
+    padding: 40px 0;
 }
 .service{
     display: flex;
+    padding: 58px 43px;
+    text-decoration: none;
 }
 
+.service__button{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.service:hover{
+    background: #F4F5F5;
+    color:#FF5400;
+}
+
+.service:hover .service__button{
+    background-color: #FF5400;
+    color: #F4F5F5;
+}
 .service__img{
-    width: 30%;
-    margin-right: 7%;
+    width: 40%;
+    margin-right: 5%;
 }
 .service__content{
     flex: 1;
+}
+
+.service__title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.service__description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #303030;
+    margin-bottom: 30px;
+}
+.service__button{
+    display: inline-block;
+}
+
+.section-gray{
+    background: #F4F5F5;
+}
+
+.bottom-line{
+    background: #17191C;
 }

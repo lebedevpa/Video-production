@@ -1,0 +1,29 @@
+
+.inner-section--bg--grey{
+    background-color: #F4F5F5;
+}
+.inner-section__title{
+    color:#1A1B1E;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    padding: 75px 0;
+}
+.partners{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.partners__link{
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}

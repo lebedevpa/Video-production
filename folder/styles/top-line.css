@@ -1,4 +1,5 @@
 .top-line{
+    display: flex;
     min-height: 415px;
     flex-direction: column;
     background: #000 url('../img/background/top-line.png') right 45% top no-repeat;
