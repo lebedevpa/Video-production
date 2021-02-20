@@ -65,6 +65,7 @@
     list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .tags-list__item{
     font-family: Open Sans;
@@ -74,12 +75,19 @@
     line-height: 18px;
     white-space: nowrap;
     text-align: center;
-    padding: 9px 15px;
-    background-color: #E7E7E7;
     color: #303030;
     border-radius: 35px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right:10px;
+    margin-bottom: 30px;
+}
+
+.tags__elem{
+    cursor: pointer;
+}
+
+.tags-list__item .tag{
+    padding: 9px 15px; 
+
 }
 
 .tags-list__check{
@@ -87,10 +95,8 @@
 }
 
 
-.tags-list__check:checked + .tags-list__check-title{
+.tags-list__check:checked + .tag{
     background-color: #F2D4C9;
-    color: #303030;
-
 }   
 
 

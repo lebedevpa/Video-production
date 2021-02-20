@@ -42,7 +42,9 @@
     line-height: 35px;
     margin: 0px;
 }
-
+.footer .contacts__text{
+    margin: 0;
+}
 
 .contact__header{
     margin:0;

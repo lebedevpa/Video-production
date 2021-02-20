@@ -4,3 +4,10 @@
     border-top: solid 1px rgb(255, 255, 255, 0.1);
     align-items: center;
 }
+.footer .contacts__text{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9a9a9a;
+    text-align: right;
+}
