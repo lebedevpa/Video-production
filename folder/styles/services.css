@@ -21,11 +21,13 @@
 .service:hover{
     background: #F4F5F5;
     color:#FF5400;
+    transition: 0.5s;
 }
 
 .service:hover .service__button{
     background-color: #FF5400;
     color: #F4F5F5;
+    transition: 0.5s;
 }
 .service__img{
     width: 40%;
