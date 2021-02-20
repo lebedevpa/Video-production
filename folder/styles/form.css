@@ -3,9 +3,17 @@
 }
 
 .form__options{
-    width: 50%;
+
+    display: flex;
     color:#1A1B1E;
+
 }
+
+.options-title{
+    padding: 0 30px;
+    width: 50%;
+}
+
 .form__title{
     padding: 45px 0;
     font-style: normal;
@@ -53,6 +61,7 @@
 }
 .tags-list{
     display: flex;
+    flex: 1;
     list-style: none;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,10 +75,12 @@
     line-height: 18px;
     white-space: nowrap;
     text-align: center;
-    padding: 10px 15px;
+    padding: 9px 15px;
     background-color: #E7E7E7;
     color: #303030;
     border-radius: 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .tags-list__check{
@@ -81,6 +92,11 @@
     background-color: #F2D4C9;
     color: #303030;
     transition: 0.5s;
+    padding: 9px 15px;
+    border-radius: 35px;
+
+    font-size: 13px;
+    line-height: 18px;
 }   
 
 
@@ -88,6 +104,7 @@
     cursor: pointer;
     border: none;
     outline: none;
+    margin-right: 10px;
     margin-bottom: 100px;
 }
 
