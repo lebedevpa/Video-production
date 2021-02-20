@@ -7,3 +7,6 @@
     padding: 18px 53px;
     color: #fff;
 }
+.button-gray:focus{
+    background-color: #2B2B2B;
+}

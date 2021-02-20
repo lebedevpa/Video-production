@@ -6,3 +6,7 @@
     padding: 18px 53px;
     color: #fff;    
 }
+.button:hover{
+    background-color:#FF3D00;
+    transition: 0.5s;
+}

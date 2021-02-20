@@ -1,10 +1,20 @@
 .social-network__menu{
     list-style: none;
+
 }
 .social-network__item{
     display: inline;
     margin-right: 10px;
+    opacity: 0.5;
 }
+
+
+.social-network__item:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
 .social-network__menu{
     display: flex;
 }
+

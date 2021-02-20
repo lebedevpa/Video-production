@@ -20,6 +20,11 @@
     color:#fff;
 }
 
+.paginator--theme--light .paginator__item .paginator__paginator-link:hover{
+    color: #fff;
+
+}
+
 .paginator__menu{
     padding: 5px;
     margin-right: 25px;
@@ -47,6 +52,12 @@
     background-color: #FF5400;
     font-weight: bold;
 
+}
+
+.paginator__item:hover{
+    background-color: #FF5400;
+    font-weight: bold;
+    transition: 0.5s;
 }
 .paginator__paginator-link{
     text-decoration: none;

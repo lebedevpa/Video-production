@@ -1,34 +1,65 @@
+.contacts{
+    position:relative;
+}
 
+.contacts:hover .contact__drop{ 
+    opacity:0.8;
+    transition: 0.5s;
+
+}
+.contact__drop{
+    width: 180px;
+    opacity: 0.8;
+    background-color: #CDD1D2;
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin-top: 9px;
+    position: absolute;
+    right:0;
+    opacity: 0;
+}
+
+
+
+.contact__drop:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 11px solid transparent;
+    border-bottom-color: #CDD1D2;
+    border-bottom-width: 9px;
+    position: absolute;
+    bottom: 100%;
+    right: 40px;
+}
 
 .contacts__tel-text{
+    text-align: right;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
-    margin-top: 0px;
+    margin: 0px;
 }
 
-.contacts__header{
-    margin-bottom:0;
+
+.contact__header{
+    margin:0;
     font-weight: normal;
     font-size: 13px;
     line-height: 20px;
-
-    /* identical to box height, or 154% */
-    
     text-decoration-line: underline;
-    
     color: #FF3D00;
     text-align: right;
 }
 
-.contacts__text{
+.contact__text{
     font-weight: normal;
-    font-size: 11px;
-    line-height: 20px;
-    text-align: right;
-    color: #9A9A9A;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #1E1F20;
     margin-bottom: 0;
-    /* identical to box height, or 162% */
-
 }
+
