@@ -1,70 +1,81 @@
-.reviews-content{
-    background-color: #E5E5E5;
+
+.reviews{
+    column-count: 2;
+    column-gap: 30px;
+
 }
 
-.reviews-title{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
+.reviews__item{
+    margin-bottom: 17px;
 }
-.feedback-gallery{
-    padding: 94px 0;
-    columns: 2;
-    gap: 25px;
-    column-gap: auto;
-}
-.feedback-gallery__item {
+.review{
     display: inline-flex;
     flex-direction: column;
-    border-radius: 5px;
+    padding: 50px 28px;
     background-color: #F4F5F5;
-    padding: 30px;
-    margin-bottom: 20px;
+    border-radius: 5px;
 }
-.feedback-gallery__header{
+
+.review__header{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
 }
-.feedback__fname{
-    font-family: Open Sans;
-    font-style: normal;
+
+.review__user{
+    display: flex;
+    align-items: center;
+    color: #2E77A4;
     font-weight: bold;
     font-size: 24px;
     line-height: 42px;
+    margin-bottom: 11px;
 }
-.fname-link{
-    color:#2E77A4;
+
+.review__user::after{
+    content: url(../img/icons/vk-blue.png);
+    height: 29px ;
 }
-.feedback__title{
-    font-family: Open Sans;
-    font-style: normal;
+
+.avatar{
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+.tag{
+    font-size: 15px;
+    color:#303030;
+    padding: 10px 25px;
+    border-radius: 35px;
+    background-color: #E7E7E7;
+}
+.tag--bg--orange{
+    background-color: #F2D4C9;
+}
+
+.review__title{
+    color: #202020;
     font-weight: bold;
     font-size: 30px;
     line-height: 42px;
-    color: #202020;
-}
-.feedback__text{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 27px;
-    color: #818181;
-    margin-bottom: 40px;
-}
-.feedback__date{
-    color:#1A1B1E;
-}
-.feedback .paginator{
-    color:#202020;
-}
-.feedback .paginator__link{
-    color:#202020;
+    margin-bottom: 13px;
 }
 
-.feedback .paginator__link.highlight{
-    color: #fff;
+.review__content-text{
+    margin-bottom: 50px;
 }
+
+.review__date{
+    color: #1A1B1E;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+}
+
